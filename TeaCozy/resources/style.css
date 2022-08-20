@@ -1,0 +1,175 @@
+* {
+	font-family: Helvetica, sans-serif;
+	color: seashell;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+body {
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+	width: 1280px;
+}
+
+header {
+	height: 69px;
+	border-bottom: 1px solid seashell;
+}
+
+#logo-img {
+	width: 100%;
+	height: 50px;
+	margin: 10px;
+	opacity: 0.9;
+}
+
+#navbar {
+	overflow: hidden;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	gap: 10px;
+}
+
+#logo-stuff {
+	display: inline-flex;
+	order: 1;
+	align-self: center;
+}
+
+#links {
+	order: 2;
+	display: inline-flex;
+	justify-content: flex-end;
+	align-self: center;
+	width: 100%;
+	min-width: fit-content;
+}
+
+.nav-link {
+	color: seashell;
+	font-size: 22px;
+	padding: 10px 10px;
+	align-self: center;
+	opacity: 0.9;
+}
+
+.banner {
+	height: 700px;
+	width: 1200px;
+	margin: 0 40px 50px;
+	position: relative;
+}
+
+.banner-img {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.banner-text {
+	width: 100%;
+	justify-items: center;
+	background-color: black;
+	padding: auto 0;
+	z-index: 10;
+	opacity: 0.9;
+	position: absolute;
+	top: 300px;
+}
+
+.month-teas-container {
+	display: inline-block;
+	width: 1000px;
+	margin: 100px;
+}
+
+.locations {
+	height: 700px;
+	width: 1200px;
+	margin: 0 40px 50px;
+	position: relative;
+}
+
+.loc-bg {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.loc-text-h2 {
+	background-color: none;
+	opacity: 0.9;
+	margin-bottom: 15px;
+}
+
+.loc-texts {
+	width: 100%;
+	justify-items: center;
+	padding: auto 0;
+	z-index: 10;
+	position: absolute;
+	top: 300px;
+}
+
+.loc-address {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: center;
+	justify-items: center;
+}
+
+.adress {
+	background-color: black;
+	height: fit-content;
+	width: 300px;
+	opacity: 1;
+}
+
+.adress p {
+	padding: 5px;
+}
+
+
+.contacts {
+	opacity: 0.9;
+	display: inline-block;
+	padding-top: 50px;
+	position: relative;
+	height: 200px;
+}
+
+#footer {
+	position: relative;
+	text-align: left;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.wrap {
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+}
+
+.item {
+	grid-column: span 2;
+	column-gap: 50px;
+}
+
+.item img {
+	width: 300px;
+	height: 200px;
+}
+
+.item:nth-child(4) {
+	grid-column: 2 / span 2;
+}
